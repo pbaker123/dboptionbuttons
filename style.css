@@ -1,0 +1,137 @@
+body {
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+
+main {
+  height: 520px;
+  width: 1000px;
+  background-image: url(images/background.png);
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  padding: 10px 0px 10px 0px;
+}
+
+.return {
+  width: 135px;
+  height: 27px;
+  position: relative;
+  top: 64px;
+  left: 848px;
+  z-index: 99;
+}
+
+.add {
+  width: 135px;
+  height: 27px;
+  position: relative;
+  top: 69px;
+  left: 848px;
+  z-index: 99;
+}
+
+.delete {
+  width: 135px;
+  height: 28px;
+  position: relative;
+  top: 74px;
+  left: 848px;
+  z-index: 99;
+}
+
+.save {
+  width: 289px;
+  height: 26.5px;
+  position: relative;
+  top: 388px;
+  left: 206px;
+  z-index: 99;
+}
+
+.cancel {
+  width: 289px;
+  height: 26.5px;
+  position: relative;
+  top: 361.5px;
+  left: 506px;
+  z-index: 99;
+}
+
+.details {
+  width: 755px;
+  height: 227px;
+  position: relative;
+  top: -75px;
+  left: 203px;
+  display: flex;
+  align-items: center;
+}
+
+.label {
+  width: 645px;
+  height: 92px;
+  position: relative;
+  top: -103px;
+  left: 200px;
+  z-index: 1;
+}
+
+.available {
+  width: 183px;
+  height: 447px;
+  position: relative;
+  top: -390px;
+  left: 13px;
+  z-index: 1;
+  font-size: smaller;
+}
+
+.iilAvail,
+.iidAvail,
+.scAvail,
+.bcAvail,
+.cisAvail {
+  padding: 5px 10px;
+}
+
+.returnLabel,
+.addLabel,
+.deleteLabel,
+.saveLabel,
+.cancelLabel,
+.returnDetail,
+.addDetail,
+.deleteDetail,
+.saveDetail,
+.cancelDetail,
+.iilAvail,
+.iidAvail,
+.scAvail,
+.bcAvail,
+.cisAvail,
+.availTitle {
+  display: none;
+}
+
+.returnDetail,
+.addDetail,
+.deleteDetail,
+.saveDetail,
+.cancelDetail {
+  height: auto;
+}
+
+.returnLabel,
+.addLabel,
+.deleteLabel,
+.saveLabel,
+.cancelLabel {
+  text-align: center;
+  line-height: 92px;
+  font-size: 30px;
+}

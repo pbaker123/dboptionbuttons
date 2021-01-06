@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Option Set Screen Buttons</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="return"></div>
+    <div class="add"></div>
+    <div class="delete"></div>
+    <div class="save"></div>
+    <div class="cancel"></div>
+    <div class="label">
+      <p class="returnLabel">Return Button</p>
+      <p class="addLabel">Add Button</p>
+      <p class="deleteLabel">Delete Button</p>
+      <p class="saveLabel">Save Button</p>
+      <p class="cancelLabel">Cancel Button</p>
+    </div>
+    <div class="details">
+      <div class="returnDetail">
+        <ul>
+          <li>Exits the Options Screen and the Option Sets Screen is displayed</li>
+          <p><b>Note:</b> If there are any unsaved changes to the currently selected record, the tool will prompt to save</p>
+        </ul>
+      </div>
+      <div class="addDetail">
+        <ul>
+          <li>Creates a new record in the database (add)</li>
+          <p><b>Note:</b> If edits are made without clicking add first, you will be updating an existing record in the database (update)</p>
+        </ul>
+      </div>
+      <div class="deleteDetail">
+        <ul>
+          <li>Deletes the currently selected record from the database (delete)</li>
+          <li>Presents a confirmation prompt</li>
+          <p><b>Note:</b> This action cannot be undone</p>
+        </ul>
+      </div>
+      <div class="saveDetail">
+        <ul>
+          <li>Saves any changes made to the selected record (update), or</li>
+          <li>Saves any changes made to a new record (add)</li>
+        </ul>
+      </div>
+      <div class="cancelDetail">
+        <ul>
+          <li>Cancels any changes made to the selected record (update), or</li>
+          <li>Cancels any changes made to a new record (add)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="available">
+      <h5 class="availTitle">This button is avaiable in the following option sets:</h5>
+        <li class="iilAvail">Item Identify List</li>
+        <li class="iidAvail">Item Identify Data</li>
+        <li class="scAvail">Store Configurations</li>
+        <li class="bcAvail">Boss Configurations</li>
+        <li class="cisAvail">Consolidated Item Security</li>
+    </div>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>
