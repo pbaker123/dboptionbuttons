@@ -5,7 +5,7 @@ const selectors = {
 const buttons = ["return","add","delete","save","cancel"];
 
 selectors.body.addEventListener("click", function(event) {
-  const classname = event.explicitOriginalTarget.className;
+  const classname = event.target.className;
   console.log(classname);
   if (buttons.includes(classname)) {
     showLabel(classname);
